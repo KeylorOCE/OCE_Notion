@@ -36,7 +36,11 @@ body {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  background-repeat: no-repeat; /* Ensure the background doesn't repeat */
+  background-position: center; /* Center the background image */
+  background-size: contain; /* Change this from cover to contain */
 }
+
 
 .slide.current {
   opacity: 1;
